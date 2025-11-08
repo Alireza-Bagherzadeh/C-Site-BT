@@ -1,11 +1,11 @@
 import logging
 import httpx  # کتابخانه مدرن و غیرهمزمان به جای requests
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
-
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 # --- تنظیمات اولیه ---
 
 # ! توکن ربات خود را اینجا قرار دهید
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE" 
+BOT_TOKEN = "8426082406:AAHljMmL6uvDrIbMHmT3Gv2d107C8IFS0hs" 
 
 # ! آدرس پایه API سایت جنگو شما
 API_BASE_URL = "https://yoursite.com/api/"
